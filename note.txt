@@ -1,0 +1,57 @@
+#jquery
+
+$("./#").show(time-interval); 
+$("./#").hide(time-interval);
+
+$("./#").fadeIn(time-interval);
+$("./#").fadeOut(time-interval);-
+
+$("./#").slideDown(time-interval);
+$("./#").slideUp(time-interval);
+
+$("./#").css("color", "red");
+
+$("./#").animate({
+    left: '250px',
+    opacity: '0.5',
+    height: '150px',
+    width: '150px'
+});
+
+$("./#).attr("src");
+$("./#).attr("src", "asdasdasd");
+.attr("id") ---- Fetch value
+.attr("id", "value) ---- insert value
+
+#event listener
+
+click - function()  { work }
+change- function()  { work  .val() }
+scroll- function()  { value }
+
+
+
+$(this) - current working element
+$(./#).text("value")
+
+$(./#).html("element")
+
+$(./#).addClass("class-value")
+$(./#).removeClass("class-value")
+
+
+#flex grid library
+
+flex-css - center
+flex-top - top
+flex-bottom - bottom
+
+flex-css-start
+flex-css-end
+
+sb - space-between
+sa - space-around
+
+wrap - try to append inside the bopx
+
+
