@@ -12,7 +12,6 @@ $("#close-btn").click(function () {
   });
 });
 
-
 $(".image-list").click(function () {
   $(".image-list").css({ border: "none", filter: "grayscale(80%)" });
   $(this).css("border", "5px solid #ffffff");
@@ -23,14 +22,13 @@ $(".image-list").click(function () {
 
 $(window).scroll(function () {
   if ($(this).scrollTop() > 200) {
-    console.log("hello");
     $(".scroll-top").show();
   } else {
     $(".scroll-top").hide();
   }
 });
 
-
-$(".scrollques").click(function() {
-  $(".scrollans").slideToggle("slow")
-})
+$(".question-box").click(function () {
+  $(this).children(".pointer-icon").toggleClass("rotate");
+  $(this).parent().children(".answer-box").slideToggle(100);
+});

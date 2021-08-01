@@ -101,26 +101,22 @@ html {
   filter: grayscale(80%);
 }
 
-
-.Allquestions p{
+.Allquestions p {
   color: #f1f1f1;
   border-bottom: 2px solid rgba(255, 255, 255, 0.288);
 }
 
-
-.ques{
+.ques {
   color: #f1f1f1;
-} 
+}
 
-.scrollques{
+.scrollques {
   cursor: pointer;
-} 
+}
 
-.scrollans{
+.scrollans {
   color: #f1f1f1;
   display: none;
-  
-
 }
 
 .scroll-top {
@@ -144,6 +140,69 @@ html {
 
 .count p {
   color: #f1f1f1;
+}
+
+.faq-container h1 {
+  color: #f1f1f1;
+  font-size: 22px;
+  position: relative;
+  display: inline-block;
+}
+
+.faq-container h1::after {
+  content: "";
+  position: absolute;
+  background-color: #f1f1f1;
+  width: 30%;
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+}
+
+.faq-container h1::before {
+  content: "";
+  position: absolute;
+  background-color: #f1f1f1;
+  width: 50%;
+  height: 2px;
+  bottom: -12px;
+  left: 0;
+}
+
+.faq-container .faq-box .question-box {
+  background-color: #181818;
+  cursor: pointer;
+  border-radius: 10px 10px 0 0;
+  position: relative;
+  padding-left: 40px !important;
+}
+
+.faq-container .faq-box .question-box .pointer-icon {
+  color: #f1f1f1;
+  position: absolute;
+  left: 10px;
+}
+
+.faq-container .faq-box .question-box .pointer-icon.rotate {
+  transform: rotate(90deg);
+}
+
+.faq-container .faq-box .question-box p {
+  color: #f1f1f1;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.faq-container .faq-box .answer-box {
+  background-color: #181818;
+  cursor: pointer;
+  border-radius: 0 0 10px 10px;
+  border-top: 1px solid #494949;
+}
+
+.faq-container .faq-box .answer-box p {
+  color: #e6e1e1;
+  font-size: 12px;
 }
 
 @media (max-width: 767px) {
