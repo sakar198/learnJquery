@@ -13,11 +13,17 @@ $("#close-btn").click(function () {
 });
 
 $(".image-list").click(function () {
+  // add css
   $(".image-list").css({ border: "none", filter: "grayscale(80%)" });
   $(this).css("border", "5px solid #ffffff");
   $(this).css("filter", "grayscale(0%)");
+
+  // get set image src
   $("#image-container").attr("src", $(this).attr("src"));
   $("#count-img").text($(this).attr("data-id"));
+
+  // get set download src
+  $("#download-link").attr("href", $(this).attr("src"));
 });
 
 $(window).scroll(function () {
@@ -32,3 +38,9 @@ $(".question-box").click(function () {
   $(this).children(".pointer-icon").toggleClass("rotate");
   $(this).parent().children(".answer-box").slideToggle(100);
 });
+
+let i = 0;
+setInterval(function () {
+  $("#man-img").css("right", i + "px");
+  i += 1;
+}, 50);

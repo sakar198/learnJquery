@@ -26,6 +26,7 @@
     <link rel="stylesheet" href=".//style.css" />
   </head>
   <body>
+    <!-- nav bar  -->
     <div class="nav-bar flex-css-row-sb py-2 px-3" id="navbar">
       <div class="toggle-box px-2 py-1" id="toggle-btn">
         <i class="fas fa-bars"></i>
@@ -41,6 +42,7 @@
       </div>
     </div>
 
+    <!-- mobile nav  -->
     <div class="side-nav py-4 px-3" id="mobile-nav">
       <div class="close-box" id="close-btn">
         <i class="fas fa-times"></i>
@@ -56,8 +58,14 @@
       </div>
     </div>
 
+    <!-- gallery  -->
     <div class="container-fluid flex-css main-container">
       <div class="image-container">
+        <div class="download-icon">
+          <a href="./img1.jpg" id="download-link" download>
+            <i class="fas fa-download"></i>
+          </a>
+        </div>
         <img
           src="./img1.jpg"
           alt="dummy"
@@ -125,6 +133,7 @@
       </div>
     </div>
 
+    <!-- faq  -->
     <div class="container faq-container mx-auto mb-5">
       <div class="faq-heading flex-css">
         <h1 class="text-center mb-5">All Questions</h1>
@@ -165,19 +174,50 @@
       </div>
     </div>
 
-    <div class=" container triangle mx-auto">
-
-      <div class="jqueytext flex-css">
-        <h1 class="texthere">Jquery  <span class="texthereagain"></span>  </h1>
+    <!-- rectangle -->
+    <div class="container-fluid py-5 px-5 mb-5">
+      <div class="row">
+        <div class="col-lg-6 flex-css py-5 my-4">
+          <div class="rectangle flex-css">
+            <p>jQuery</p>
+          </div>
+        </div>
+        <div class="col-lg-6 flex-css py-5 my-4">
+          <div class="circle flex-css">
+            <h1>Road Map</h1>
+            <div class="inner-circle cir-1 flex-css">
+              <p>HTML</p>
+            </div>
+            <div class="inner-circle cir-2 flex-css">
+              <p>CSS</p>
+            </div>
+            <div class="inner-circle cir-3 flex-css">
+              <p>jQuery</p>
+            </div>
+            <div class="inner-circle cir-4 flex-css">
+              <p>Python</p>
+            </div>
+            <div class="inner-circle cir-5 flex-css">
+              <p>SQL</p>
+            </div>
+          </div>
+        </div>
       </div>
-
     </div>
 
+    <!-- scroll -->
     <div class="scroll-top flex-css">
       <div class="flex-css">
         <a href="#navbar">
           <i class="fas fa-chevron-up"></i>
         </a>
+      </div>
+    </div>
+
+    <!-- walking animation -->
+    <div class="container-fluid py-5 mb -5">
+      <div class="animation-container">
+        <img src="./unnamed.gif" alt="man" id="man-img" />
       </div>
     </div>
 
