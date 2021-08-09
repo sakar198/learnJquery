@@ -38,9 +38,3 @@ $(".question-box").click(function () {
   $(this).children(".pointer-icon").toggleClass("rotate");
   $(this).parent().children(".answer-box").slideToggle(100);
 });
-
-let i = 0;
-setInterval(function () {
-  $("#man-img").css("right", i + "px");
-  i += 1;
-}, 50);

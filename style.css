@@ -309,21 +309,6 @@ html {
   bottom: 35px;
 }
 
-.animation-container {
-  position: relative;
-}
-
-.animation-container img {
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 200px;
-}
-
-.animation-container {
-  min-height: 200px;
-}
-
 @media (max-width: 767px) {
   .link-container,
   .logo-container {
